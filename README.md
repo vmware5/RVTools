@@ -1,1 +1,7 @@
-# RVTools
+# RVTools v4.7.1
+
+RVTools is a lightweight Windows utility designed to collect and report information from a VMware vSphere environment. After connecting to a vCenter Server or directly to an ESXi host using read-only credentials, it queries the inventory and configuration and then exports the results to a multi-tab Excel workbook. The report typically covers core objects such as clusters, hosts, virtual machines, datastores, networks, resource pools, and snapshots, along with many commonly needed details (CPU, memory, disk layout, power state, VMware Tools status, guest OS, and more).
+
+Because the output is organized into clear spreadsheets, RVTools is often used for documentation, health checks, audits, and migration planning. It helps administrators quickly spot oversized or underutilized VMs, old snapshots, disconnected ISOs, misconfigured virtual hardware, and potential capacity risks across storage and compute. The tool can also support change tracking by generating “before and after” exports that are easy to compare, filter, and share.
+
+RVTools focuses on visibility and reporting rather than making changes, which makes it a convenient companion for day-to-day operations. It runs locally, requires no agents on hosts or VMs, and can be executed on demand when you need a quick snapshot of the environment. In short, it provides a fast way to turn vSphere data into practical, shareable reports for technical teams and stakeholders.
